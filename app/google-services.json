@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812582285226",
+    "project_id": "sphyx-56543",
+    "storage_bucket": "sphyx-56543.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812582285226:android:711eb5dce4aa637724c5d3",
+        "android_client_info": {
+          "package_name": "com.sphyxx.Sphyx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812582285226-n1946tg4fn3b0259o0g6b10ddfcesahv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS_oU1tKYAqSyt7WDUy8dCUdt1mnWhoY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812582285226-n1946tg4fn3b0259o0g6b10ddfcesahv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

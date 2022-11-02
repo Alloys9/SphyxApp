@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sphyxx.Sphyx">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo101"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo101_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginAndSignUp">
+        <activity
+            android:name="com.sphyxx.Sphyx.settings"
+            android:exported="false" />
+        <activity
+            android:name="com.sphyxx.Sphyx.feedback"
+            android:exported="false" />
+        <activity
+            android:name="com.sphyxx.Sphyx.notes"
+            android:exported="false" />
+        <activity
+            android:name="com.sphyxx.Sphyx.calculator"
+            android:exported="false" />
+        <activity
+            android:name="com.sphyxx.Sphyx.SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sphyxx.Sphyx.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sphyxx.Sphyx.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
